@@ -1,3 +1,4 @@
+
 // 004 -  Arrow function :
 
     const logger = (log) => {
