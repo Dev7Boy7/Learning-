@@ -192,35 +192,35 @@
 
 // 010 - Spread operator 
 
-        var array1 = ['Javascript', 'Ruby', 'PHP'];
+      var array1 = ['Javascript', 'Ruby', 'PHP'];
 
-        var array2 = ['ReactJs',  'Dart'];
+    var array2 = ['ReactJs',  'Dart'];
 
-        var array3 = [...array, ...array2]; // Nối mảng
+    var array3 = [...array, ...array2]; // Nối mảng
 
-        console.log(array3);
+    console.log(array3);
 
 
 
-        var Object1 = {
-            name: 'Javascript',
-        };
+    var Object1 = {
+        name: 'Javascript',
+    };
 
-        var Object2 = {
-            price: 1000,
-        };
+    var Object2 = {
+        price: 1000,
+    };
 
-        var Object3 = {
-            ...Object1,
-            ...Object2,
-        };
+    var Object3 = {
+        ...Object1,
+        ...Object2,
+    };
 
-        var array =  ['Javascript', 'Ruby', 'PHP'];
+    var array =  ['Javascript', 'Ruby', 'PHP'];
 
-        function logger(a,b,c) {
-            console.log(a,b,c);
-        }
+    function logger(a,b,c) {
+        console.log(a,b,c);
+    }
 
-        logger(...array);
+    logger(...array);
 
 
